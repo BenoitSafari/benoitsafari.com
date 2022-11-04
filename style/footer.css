@@ -1,0 +1,44 @@
+.footer .links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.footer .links a {
+  box-sizing: content-box;
+  padding: 1rem;
+}
+.footer .links a svg {
+  fill: var(--primary-color-faded);
+  max-width: 2.5rem;
+  transition: .2s;
+  filter: drop-shadow(1px 7px 7px #000);
+  -webkit-filter: drop-shadow(1px 7px 7px #000);
+}
+.footer .links a svg:hover {
+  fill: var(--secondary-color);
+  transition: .2s;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+.footer .links a svg:active {
+  fill: var(--secondary-color);
+  transition: .2s;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+}
+.footer .copyright {
+  color: var(--primary-color-faded);
+  font-size: .9rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 385px) {
+  .footer .links {
+    gap: 1rem;
+  }
+  .footer .links a svg {
+  -webkit-transform: scale(.7);
+  transform: scale(.7);
+  }
+}

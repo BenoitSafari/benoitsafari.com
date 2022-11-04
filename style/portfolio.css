@@ -1,0 +1,21 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio li a svg {
+  opacity: 0.5;
+  transition: .2s;
+}
+.portfolio li a svg:hover {
+  opacity: 1;
+  transition: .2s;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.portfolio li a svg:active {
+  opacity: 1;
+  transition: .2s;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+}

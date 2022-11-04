@@ -1,0 +1,70 @@
+.neon {
+  position: relative;
+  font-family: allison;
+  transform: var(--media-max-desktop);
+  -webkit-transform: var(--media-max-desktop);
+  user-select: none;
+  font-size: 260px;
+  letter-spacing: -5px;
+}
+.neon #neon_back {
+  position: absolute;
+  filter: drop-shadow(var(--shadow));
+  color: var(--neon-back-color);
+}
+.neon #neon_outer {
+  position: absolute;
+  color: var(--neon-front-color);
+  opacity: 1;
+  -webkit-text-stroke: 5px var(--neon-back-color);
+}
+.neon #neon_inner {
+  opacity: .2;
+  background: url('../res/neon-back.webp');
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip:text;
+  background-clip:text;
+}
+.lights-on {
+  text-shadow: 0 0 9rem var(--neon-light-color);
+  color: var(--neon-light-color);
+}
+
+@media screen and (max-width: 1080px) {
+  .neon {
+    transform: var(--media-max-1080);
+    -webkit-transform: var(--media-max-1080);
+  }
+}
+@media screen and (max-width: 780px) {
+  .neon {
+    transform: var(--media-max-780);
+    -webkit-transform: var(--media-max-780);
+  }
+}
+@media screen and (max-width: 680px) {
+  .neon {
+    transform: var(--media-max-680);
+    -webkit-transform: var(--media-max-680);
+  }
+}
+@media screen and (max-width: 580px) {
+  .neon {
+    transform: var(--media-max-580);
+    -webkit-transform: var(--media-max-580);
+  }
+}
+@media screen and (max-width: 420px) {
+  .neon {
+    transform: var(--media-max-420);
+    -webkit-transform: var(--media-max-420);
+  }
+}
+@media screen and (max-width: 340px) {
+  .neon {
+    transform: var(--media-max-340);
+    -webkit-transform: var(--media-max-340);
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "benoitsafari.com",
+  "version": "2.0.0",
+  "description": "Basic HTML web page.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-plugin-html": "^7.1.0"
+  }
+}

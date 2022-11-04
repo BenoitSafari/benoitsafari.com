@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('../res/fonts/roboto-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'allison';
+  src: url('../res/fonts/allison-regular.ttf') format('truetype');
+}
+
+* { 
+  box-sizing: border-box; 
+}
+body {
+  background-color: var(--background-primary-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  height: 100vh;
+  max-height: 1000px;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#neon, #portfolio, #footer {
+  transition: all 0.8s ease;
+  opacity: 0;
+}

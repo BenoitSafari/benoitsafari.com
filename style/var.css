@@ -1,0 +1,21 @@
+:root {
+  --background-primary-color: #1b1b1b;
+  --background-secondary-color: #474747;
+  --text-color: #d4d4d4;
+  --primary-color: #bbbbbb;
+  --primary-color-faded: #bbbbbb99;
+  --secondary-color: #fff;
+  --boxshadow: rgba(0, 0, 0, 0.25);
+  --shadow: .2rem .4rem .1rem #000000;
+
+  --neon-back-color: #36363636;
+  --neon-front-color: #4e4e4e88;
+  --neon-light-color: #e100ff;
+  --media-max-desktop: rotate(-6deg); 
+  --media-max-1080: scale(.9) rotate(-6deg);
+  --media-max-780: scale(.8) rotate(-6deg);
+  --media-max-680: scale(.7) rotate(-6deg);
+  --media-max-580: scale(.5) rotate(-6deg);
+  --media-max-420: scale(.4) rotate(-6deg);
+  --media-max-340: scale(.3) rotate(-6deg);
+}
